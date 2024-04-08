@@ -169,6 +169,13 @@ class Main {
     long startTime = 0;
     long endTime = 0;
 
+    draw.setBackground(Color.lightGray);
+    s = 1;
+
+    black.setBackground(Color.lightGray);
+    i = 4;
+    drawSize(i, canvas2, slider);
+    color(i, canvas);
 
     while (true) {
       EventObject event = events.peekEvent();
