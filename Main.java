@@ -92,19 +92,19 @@ class Main {
     
 
     frame.add(canvas);
-    ImageIcon cImg = new ImageIcon("clear.png");
-    ImageIcon rImg = new ImageIcon("red.png");
-    ImageIcon gImg = new ImageIcon("green.png");
-    ImageIcon yImg = new ImageIcon("yellow.png");
-    ImageIcon bImg = new ImageIcon("black.png");
-    ImageIcon wImg = new ImageIcon("                                     white.png");
-    ImageIcon rectImg = new ImageIcon("rectangle.png");
-    ImageIcon tImg = new ImageIcon("triangle.png");
-    ImageIcon lImg = new ImageIcon("line.png");
-    ImageIcon oImg = new ImageIcon("oval.png");
-    ImageIcon dImg = new ImageIcon("pencil.png");
-    ImageIcon eImg = new ImageIcon("eraser.png");
-    ImageIcon fImg = new ImageIcon("fill.png");
+    ImageIcon cImg = new ImageIcon("images/clear.png");
+    ImageIcon rImg = new ImageIcon("images/red.png");
+    ImageIcon gImg = new ImageIcon("images/green.png");
+    ImageIcon yImg = new ImageIcon("images/yellow.png");
+    ImageIcon bImg = new ImageIcon("images/black.png");
+    ImageIcon wImg = new ImageIcon("images/white.png");
+    ImageIcon rectImg = new ImageIcon("images/rectangle.png");
+    ImageIcon tImg = new ImageIcon("images/triangle.png");
+    ImageIcon lImg = new ImageIcon("images/line.png");
+    ImageIcon oImg = new ImageIcon("images/oval.png");
+    ImageIcon dImg = new ImageIcon("images/pencil.png");
+    ImageIcon eImg = new ImageIcon("images/eraser.png");
+    ImageIcon fImg = new ImageIcon("images/fill.png");
 
     
     JButton fill = Button(fImg);
